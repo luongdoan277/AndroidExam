@@ -37,7 +37,7 @@ public class ProductAdapter extends RecyclerView.Adapter {
         Product model = listProduct.get(position);
         vh.tvID.setText(model.Id + "");
         vh.tvProduct.setText(model.Name);
-        vh.tvQuantity.setText(model.Quantity);
+        vh.tvQuantity.setText(String.valueOf(model.Quantity));
     }
 
     @Override

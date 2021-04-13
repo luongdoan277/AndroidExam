@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.luongddt.androidexam.database.AppDatabase;
 import com.luongddt.androidexam.database.Product;
 
-public abstract class MainActivity extends AppCompatActivity  implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText edProduct, edQty;
     Button btAdd;
